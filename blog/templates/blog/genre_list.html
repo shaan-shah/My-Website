@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+{% block content %}
+  <h1>LIST OF GENRES </h1>
+      <h2><a class="article-title" href="{% url 'genre-1' %}"> GENRE 1</a></h2>
+      <h2><a class="article-title" href="{% url 'genre-2' %}"> GENRE 2</a></h2> 
+      <h2><a class="article-title" href="{% url 'genre-3' %}"> GENRE 3</a></h2>
+      <h2><a class="article-title" href="{% url 'genre-4' %}"> GENRE 4</a></h2>
+      <h2><a class="article-title" href="{% url 'genre-5' %}"> GENRE 5</a></h2>
+{% endblock content %}

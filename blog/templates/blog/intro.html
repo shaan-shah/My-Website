@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+{% block content %}
+	<h1> Welcome To The Book Worm  </h1>
+	<p> We at The Book Worm believe in providing the best and most authentic reviews to readers so you always know what to read next. </p>
+	
+	<a button class="btn btn-outline-info" href="{% url 'blog-home' %}"> Find Your Next Book </a>
+	<a button class="btn btn-outline-info" href="{% url 'login' %}"> Content Creator Login  </a>
+
+{% endblock content %}
